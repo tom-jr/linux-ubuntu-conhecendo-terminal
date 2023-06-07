@@ -56,3 +56,20 @@ $ cat *.txt
 - **whoami** comando retorna o nome do user
 
 - **clear** | **control+l** limpar o terminal
+
+- **touch** toca no arquivo. Caso verificarmos os detalhes do arquivo veremos que ele terá a data de atualização atualizada. Mesmo
+sem modificar nada com o touch
+1. [arg] o arquivo a ser tocado
+
+
+- **head** ler por default as 10 primeiras linhas de  arq
+1.  [arg] o arquivo a ser lido
+ -n [n] podemos informar a  quantidade de linhas que o head retornará
+
+
+ - **tail** ler por default as 10 ultimas linhas de  arq
+1.  [arg] o arquivo a ser lido
+ -n [n] podemos informar a  quantidade de linhas que o tail retornará
+ 
+ - **less** retorna o arquivo lido com um scroll para a navegação da leitura
+ 1.[arg] o arquivo que sera lido
